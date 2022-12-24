@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bg"
+    android:orientation="vertical"
+    tools:context=".Final">
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="30dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="Result"
+            android:gravity="center"
+            android:textColor="@color/white"
+
+            />
+
+
+        <ImageView
+            android:id="@+id/cong_img"
+            android:layout_width="wrap_content"
+            android:layout_height="226dp"
+            android:layout_marginTop="3dp"
+            android:contentDescription="Quiz Image"
+            android:gravity="center"
+            android:src="@drawable/ic_trophy"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Congradulations"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#F637EC"
+
+            />
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#FF5722"
+
+            />
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#11490D"
+            />
+        <Button
+            android:id="@+id/btn_finish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Finish"
+            android:backgroundTint="#AE4D8B"
+
+            android:textSize="18sp"
+            />
+
+
+</LinearLayout>
